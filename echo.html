@@ -81,9 +81,9 @@
 
       // Stomp.js boilerplate
       if (location.search == '?ws') {
-          var ws = new WebSocket('ws://' + window.location.hostname + ':17022/ws');
+          var ws = new WebSocket('ws://' + 'vskylab.essystem.pl' + ':17022/ws');
       } else {
-          var ws = new SockJS('http://' + window.location.hostname + ':17022/stomp');
+          var ws = new SockJS('http://' + 'vskylab.essystem.pl' + ':17022/stomp');
       }
       var client = Stomp.over(ws);
 
