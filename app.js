@@ -1,4 +1,4 @@
-// Use SockJS
+//  Use SockJS
 Stomp.WebSocketClass = SockJS;
 
 var username = "guest",
